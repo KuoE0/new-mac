@@ -40,10 +40,6 @@
         "desc": "Cryptomator Client"
     },
     {
-        "name": "dropbox",
-        "desc": "Dropbox client"
-    },
-    {
         "name": "emacs-mac-spacemacs-icon",
         "desc": "emacs for mac with spacemacs icon"
     },
@@ -125,10 +121,6 @@
     {
         "name": "google-backup-and-sync",
         "desc": "Google Drive client"
-    },
-    {
-        "name": "google-chrome",
-        "desc": "web browser"
     },
     {
         "name": "google-chrome-canary",
@@ -232,10 +224,6 @@
     {
         "name": "suspicious-package",
         "desc": "quick look *.pkg"
-    },
-    {
-        "name": "teamviewer",
-        "desc": "Teamviewer client"
     },
     {
         "name": "tunnelblick",
