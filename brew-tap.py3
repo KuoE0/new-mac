@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # vim:fenc=utf-8
 #
-# Filename: add_brew_taps.py
+# Filename: add_brew_taps.py3
 # Author:   KuoE0 <kuoe0.tw@gmail.com>
 #
 # Copyright (C) 2018
@@ -16,7 +16,7 @@ import os
 
 
 def run_system_cmd(cmd):
-    print cmd
+    print(cmd)
     os.system(cmd)
 
 

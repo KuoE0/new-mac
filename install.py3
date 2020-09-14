@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # vim:fenc=utf-8
 #
-# Filename: install.py
+# Filename: install.py3
 # Author:   KuoE0 <kuoe0.tw@gmail.com>
 #
 # Copyright (C) 2018
@@ -28,7 +28,7 @@ install_cmd_collection = {
 
 
 def run_system_cmd(cmd):
-    print cmd
+    print(cmd)
     os.system(cmd)
 
 
