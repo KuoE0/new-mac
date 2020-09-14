@@ -229,10 +229,6 @@
         "desc": "Python 3"
     },
     {
-        "name": "python@2",
-        "desc": "Python 2"
-    },
-    {
         "name": "readline",
         "desc": "GNU readline"
     },
@@ -297,7 +293,10 @@
     },
     {
         "name": "toilet",
-        "desc": "text ASCII art generator"
+        "desc": "text ASCII art generator",
+        "do_before": [
+            "[ $(uname) = 'Darwin' ] && brew cask install xquartz"
+        ]
     },
     {
         "name": "tree",

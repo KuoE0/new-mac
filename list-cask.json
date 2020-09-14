@@ -1,15 +1,15 @@
 [
     {
+        "name": "adobe-dng-converter",
+        "desc": ""
+    },
+    {
         "name": "appcleaner",
         "desc": "application uninstaller"
     },
     {
         "name": "atom",
         "desc": "text editor"
-    },
-    {
-        "name": "balsamiq-mockups",
-        "desc": "mockup design tool"
     },
     {
         "name": "betterzip",
@@ -54,22 +54,16 @@
         "name": "font-fira-code"
     },
     {
+        "name": "font-fira-code-nerd-font"
+    },
+    {
         "name": "font-fira-mono"
     },
     {
+        "name": "font-fira-mono-nerd-font"
+    },
+    {
         "name": "font-fira-sans"
-    },
-    {
-        "name": "font-firacode-nerd-font"
-    },
-    {
-        "name": "font-firacode-nerd-font-mono"
-    },
-    {
-        "name": "font-firamono-nerd-font"
-    },
-    {
-        "name": "font-firamono-nerd-font-mono"
     },
     {
         "name": "font-fontawesome"
@@ -79,9 +73,6 @@
     },
     {
         "name": "font-inconsolata-nerd-font"
-    },
-    {
-        "name": "font-inconsolata-nerd-font-mono"
     },
     {
         "name": "font-josefin-sans"
@@ -123,9 +114,6 @@
         "name": "font-roboto"
     },
     {
-        "name": "font-roboto-condensed"
-    },
-    {
         "name": "font-roboto-mono"
     },
     {
@@ -149,6 +137,10 @@
     {
         "name": "google-drive-file-stream",
         "desc": "File streaming client for Google Drive"
+    },
+    {
+        "name": "iina",
+        "desc": "media player"
     },
     {
         "name": "iina",
@@ -226,28 +218,16 @@
         "desc": "quick look for *.json"
     },
     {
-        "name": "rcdefaultapp",
-        "desc": "default application manager"
-    },
-    {
-        "name": "skype",
-        "desc": "Skype client"
-    },
-    {
-        "name": "sourcetree",
-        "desc": "Git GUI"
-    },
-    {
         "name": "spotify",
         "desc": "Online music"
     },
     {
-        "name": "spotify-notifications",
-        "desc": "Notification for Spotify"
-    },
-    {
         "name": "steam",
         "desc": "Steam client"
+    },
+    {
+        "name": "stellarium",
+        "desc": ""
     },
     {
         "name": "suspicious-package",
