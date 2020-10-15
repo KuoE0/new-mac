@@ -20,10 +20,6 @@
         "desc": "homebrew GUI"
     },
     {
-        "name": "caprine",
-        "desc": "Unofficial Facebook Messenger client"
-    },
-    {
         "name": "chrome-remote-desktop-host",
         "desc": "Chrome Remote Desktop"
     },

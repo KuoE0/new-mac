@@ -28,6 +28,11 @@
         "desc": "IM application"
     },
     {
+        "name": "Messenger",
+        "id": "1480068668",
+        "desc": "Official Facebook Messenger Client "
+    },
+    {
         "name": "Microsoft To Do",
         "id": "1274495053",
         "desc": "To-do list application"
