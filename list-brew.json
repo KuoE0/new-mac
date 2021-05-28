@@ -77,6 +77,10 @@
         "desc": "CLI productivity booster"
     },
     {
+        "name": "fd",
+        "desc": "find replacement"
+    },
+    {
         "name": "ffmpeg"
     },
     {
@@ -185,6 +189,10 @@
         "desc": "mobile SSH"
     },
     {
+        "name": "ncdu",
+        "desc": "Interactive `du` command"
+    },
+    {
         "name": "neovim",
         "tap": "neovim/neovim",
         "desc": "new generation Vim",
@@ -287,6 +295,10 @@
     {
         "name": "tig",
         "desc": "git log viewer"
+    },
+    {
+        "name": "tldr",
+        "desc": "tldr for man page"
     },
     {
         "name": "tmux"
