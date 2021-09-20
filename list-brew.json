@@ -328,7 +328,7 @@
         "name": "zsh",
         "do_after": [
             "grep -qF $(brew --prefix)/bin/zsh /etc/shells || sudo sh -c \"echo $(brew --prefix)/bin/zsh >> /etc/shells\"",
-            "chsh -s $(brew --prefix)/bin/zsh $USER",
+            "chsh -s $(brew --prefix)/bin/zsh",
             "chmod -R 755 /usr/local/share"
         ]
     },

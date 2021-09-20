@@ -8,16 +8,16 @@
         "desc": "application uninstaller"
     },
     {
-        "name": "atom",
-        "desc": "text editor"
+        "name": "background-music",
+        "desc": "audio utility"
     },
     {
         "name": "betterzip",
         "desc": "Zip tool with quicklook for zip file"
     },
     {
-        "name": "cakebrew",
-        "desc": "homebrew GUI"
+        "name": "binance",
+        "desc": "Binance client"
     },
     {
         "name": "chrome-remote-desktop-host",
@@ -38,6 +38,10 @@
     {
         "name": "emacs-mac-spacemacs-icon",
         "desc": "emacs for mac with spacemacs icon"
+    },
+    {
+        "name": "fanny",
+        "desc": "CPU/GPU temperature and fans monitor"
     },
     {
         "name": "font-abril-fatface"
@@ -115,20 +119,16 @@
         "name": "font-ubuntu"
     },
     {
-        "name": "google-backup-and-sync",
-        "desc": "Google Drive client"
+        "name": "google-chrome",
+        "desc": "web browser"
     },
     {
         "name": "google-chrome-canary",
         "desc": "web browser"
     },
     {
-        "name": "google-drive-file-stream",
-        "desc": "File streaming client for Google Drive"
-    },
-    {
-        "name": "iina",
-        "desc": "media player"
+        "name": "google-drive",
+        "desc": "Google Drive client"
     },
     {
         "name": "iina",
@@ -215,7 +215,11 @@
     },
     {
         "name": "stellarium",
-        "desc": ""
+        "desc": "planetarium for macOS"
+    },
+    {
+        "name": "surfshark",
+        "desc": "VPN client"
     },
     {
         "name": "suspicious-package",
@@ -238,11 +242,11 @@
         "desc": "BBS client"
     },
     {
-        "name": "writefull",
-        "desc": "writing assistant"
-    },
-    {
         "name": "xld",
         "desc": "X Lossless Decoder / Lossless audio decoder for Mac OS X"
+    },
+    {
+        "name": "yt-music",
+        "desc": "YouTube Music client"
     }
 ]
