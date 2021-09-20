@@ -4,15 +4,10 @@
 #
 # Distributed under terms of the MIT license.
 
-###
-### System Setup
-###
 
-if [ "$1" != "" ]; then
-	# change hostname
-	HOSTNAME=$1
-	sudo scutil --set HostName $HOSTNAME
-fi
+mkdir -p /Users/Adobe
+mkdir -p /Users/Adobe/LightroomSync
+
 
 ###
 ### Xcode
