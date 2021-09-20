@@ -21,7 +21,7 @@ import subprocess
 install_cmd_collection = {
     'apt': ['sudo', 'apt', 'install', '-y'],
     'brew': ['brew', 'install'],
-    'cask': ['brew', 'cask', 'install'],
+    'cask': ['brew', 'install'],
     'mas': ['mas', 'install'],
     'pip3': ['pip3', 'install']
 }
