@@ -135,6 +135,9 @@
     "desc": "terminal"
   },
   {
+    "name": "logseq"
+  },
+  {
     "name": "notion",
     "desc": "Notion Client"
   },
