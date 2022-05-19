@@ -10,9 +10,6 @@ Setup my macOS and Linux with one line command.
 	- System Preferences → Security & Privacy → (Tab) Privacy → Accessibility
 		- Add Terminal.app
 		- Check the checkbox
-- (macOS only) Create a certificate for lldb to make "--with-lldb" work when installing llvm.
-	- Ignore if debugger is not necessary.
-    - See [https://opensource.apple.com/source/lldb/lldb-69/docs/code-signing.txt](https://opensource.apple.com/source/lldb/lldb-69/docs/code-signing.txt)
 
 ## Download & Run
 
@@ -35,6 +32,4 @@ auth sufficient pam_tid.so
 
 Install the packages that need password to install first
 - [brew] zsh (when do `chsh`)
-- [cask] google-drive-file-stream
-- [cask] adobe-creative-cloud
-- [cask] osxfuse (gocryptfs's dependency)
+- [cask] google-drive

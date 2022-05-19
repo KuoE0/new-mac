@@ -61,10 +61,11 @@ python install.py brew
 python install.py cask
 
 # Install applications from Mac App Store
-if ! mas account &> /dev/null; then
-	# sign in
-	echo -n "Enter your Apple ID: "
-	read APPLE_ID
-	mas signin --dialog $APPLE_ID
-fi
+# macOS 12 doesn't support the way to login.
+# if ! mas account &> /dev/null; then
+# 	# sign in
+# 	echo -n "Enter your Apple ID: "
+# 	read APPLE_ID
+# 	mas signin --dialog $APPLE_ID
+# fi
 python install.py mas
