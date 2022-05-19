@@ -27,7 +27,7 @@ fi
 ###
 
 # Set homebew path
-export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 
 # brew does not exist
 if ! which brew &> /dev/null; then
@@ -56,6 +56,7 @@ pyenv global $LATEST_PYTHON_VETSION
 eval "$(pyenv init -)"
 
 # Install all packages and applications
+python brew-tap.py
 python install.py brew
 python install.py cask
 
