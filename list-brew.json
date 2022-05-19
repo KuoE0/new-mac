@@ -179,6 +179,10 @@
     "desc": "NodeJS"
   },
   {
+    "name": "nvm",
+    "desc": "Node version manager"
+  },
+  {
     "name": "p7zip",
     "desc": "7zip utility"
   },
@@ -197,6 +201,10 @@
   {
     "name": "pv",
     "desc": "progress viewer"
+  },
+  {
+    "name": "pyenv",
+    "desc": "Python version manager"
   },
   {
     "name": "readline",

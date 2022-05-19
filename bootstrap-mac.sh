@@ -49,11 +49,15 @@ else
 	fi
 fi
 
+brew install pyenv
+LATEST_PYTHON_VETSION=$(pyenv install --list | grep --extended-regexp "^\s*[0-9][0-9.]*[0-9]\s*$" | tail -1)
+pyenv install $LATEST_PYTHON_VETSION
+pyenv global $LATEST_PYTHON_VETSION
+eval "$(pyenv init -)"
+
 # Install all packages and applications
-python brew-tap.py
 python install.py brew
-python install.py brew-cask
-python install.py pip3
+python install.py cask
 
 # Install applications from Mac App Store
 if ! mas account &> /dev/null; then

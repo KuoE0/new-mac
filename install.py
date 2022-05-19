@@ -23,7 +23,6 @@ install_cmd_collection = {
     'brew': ['brew', 'install'],
     'cask': ['brew', 'install'],
     'mas': ['mas', 'install'],
-    'pip3': ['pip3', 'install']
 }
 
 
@@ -50,7 +49,7 @@ def install(pkg_mgr, filename):
                 if 'args' in pkg:
                     cmd = ' '.join([cmd] + pkg['args'])
                 # use `reinstall` to install with specified arguments again
-                if pkg['name'] in subprocess.check_output(['brew', 'list']):
+                if pkg['name'].encode() in subprocess.check_output(['brew', 'list']):
                     cmd = cmd.replace('install', 'reinstall')
 
             run_system_cmd(cmd)
