@@ -28,7 +28,7 @@ if __name__ == "__main__":
     with open(filename) as f:
         data = json.load(f, object_pairs_hook=OrderedDict)
         sorted_data = sorted(data, key=lambda k: k['name'].casefold())
-        sorted_data = json.dumps(sorted_data, indent=4)
+        sorted_data = json.dumps(sorted_data, indent=2)
     # clear file content
     open(filename, 'w').close()
 
