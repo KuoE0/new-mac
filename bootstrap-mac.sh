@@ -31,7 +31,7 @@ if ! which brew &> /dev/null; then
 	# install homebrew
 	echo "Install Homebrew..."
 	# send ENTER keystroke to install automatically
-	echo | ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 # homebrew install failed
