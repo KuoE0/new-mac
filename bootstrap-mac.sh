@@ -26,6 +26,9 @@ fi
 ### Command Line Setup
 ###
 
+# Set homebew path
+export PATH=/opt/homebrew/bin:$PATH
+
 # brew does not exist
 if ! which brew &> /dev/null; then
 	# install homebrew
