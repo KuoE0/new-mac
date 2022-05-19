@@ -24,10 +24,6 @@
     "desc": "Chrome Remote Desktop"
   },
   {
-    "name": "chromium",
-    "desc": "web browser"
-  },
-  {
     "name": "cryptomator",
     "desc": "Cryptomator Client"
   },
