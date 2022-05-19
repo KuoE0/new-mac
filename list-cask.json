@@ -1,252 +1,229 @@
 [
-    {
-        "name": "adobe-dng-converter",
-        "desc": ""
-    },
-    {
-        "name": "appcleaner",
-        "desc": "application uninstaller"
-    },
-    {
-        "name": "background-music",
-        "desc": "audio utility"
-    },
-    {
-        "name": "betterzip",
-        "desc": "Zip tool with quicklook for zip file"
-    },
-    {
-        "name": "binance",
-        "desc": "Binance client"
-    },
-    {
-        "name": "chrome-remote-desktop-host",
-        "desc": "Chrome Remote Desktop"
-    },
-    {
-        "name": "chromium",
-        "desc": "web browser"
-    },
-    {
-        "name": "coconutbattery",
-        "desc": "battery status"
-    },
-    {
-        "name": "cryptomator",
-        "desc": "Cryptomator Client"
-    },
-    {
-        "name": "emacs-mac-spacemacs-icon",
-        "desc": "emacs for mac with spacemacs icon"
-    },
-    {
-        "name": "fanny",
-        "desc": "CPU/GPU temperature and fans monitor"
-    },
-    {
-        "name": "font-abril-fatface"
-    },
-    {
-        "name": "font-fira-code"
-    },
-    {
-        "name": "font-fira-code-nerd-font"
-    },
-    {
-        "name": "font-fira-mono"
-    },
-    {
-        "name": "font-fira-mono-nerd-font"
-    },
-    {
-        "name": "font-fira-sans"
-    },
-    {
-        "name": "font-fontawesome"
-    },
-    {
-        "name": "font-inconsolata"
-    },
-    {
-        "name": "font-inconsolata-nerd-font"
-    },
-    {
-        "name": "font-josefin-sans"
-    },
-    {
-        "name": "font-josefin-slab"
-    },
-    {
-        "name": "font-lato"
-    },
-    {
-        "name": "font-noto-mono"
-    },
-    {
-        "name": "font-noto-sans"
-    },
-    {
-        "name": "font-noto-sans-cjk-tc"
-    },
-    {
-        "name": "font-noto-serif"
-    },
-    {
-        "name": "font-noto-serif-cjk"
-    },
-    {
-        "name": "font-old-standard-tt"
-    },
-    {
-        "name": "font-open-sans"
-    },
-    {
-        "name": "font-open-sans-condensed"
-    },
-    {
-        "name": "font-pt-serif"
-    },
-    {
-        "name": "font-roboto"
-    },
-    {
-        "name": "font-roboto-mono"
-    },
-    {
-        "name": "font-roboto-slab"
-    },
-    {
-        "name": "font-ubuntu"
-    },
-    {
-        "name": "google-chrome",
-        "desc": "web browser"
-    },
-    {
-        "name": "google-chrome-canary",
-        "desc": "web browser"
-    },
-    {
-        "name": "google-drive",
-        "desc": "Google Drive client"
-    },
-    {
-        "name": "iina",
-        "desc": "The modern video player for macOS."
-    },
-    {
-        "name": "iterm2",
-        "desc": "terminal"
-    },
-    {
-        "name": "ksdiff",
-        "desc": "Kaleidoscope command line tool"
-    },
-    {
-        "name": "licecap",
-        "desc": "GIF recorder"
-    },
-    {
-        "name": "macdown",
-        "desc": "markdown editor"
-    },
-    {
-        "name": "magicprefs",
-        "desc": "touchpad utility"
-    },
-    {
-        "name": "notion",
-        "desc": "Notion Client"
-    },
-    {
-        "name": "opera",
-        "desc": "web browser"
-    },
-    {
-        "name": "osxfuse"
-    },
-    {
-        "name": "packet-peeper",
-        "desc": "network protocol analyzer"
-    },
-    {
-        "name": "paparazzi",
-        "desc": "Screenshot for webpages"
-    },
-    {
-        "name": "qlcolorcode",
-        "desc": "quick look for source code with syntax highlight"
-    },
-    {
-        "name": "qlimagesize",
-        "desc": "show the size of image on title bar of quick look"
-    },
-    {
-        "name": "qlmarkdown",
-        "desc": "quick look for markdown"
-    },
-    {
-        "name": "qlprettypatch",
-        "desc": "quick look for patch"
-    },
-    {
-        "name": "qlstephen",
-        "desc": "quick look for plain text w/o file extension"
-    },
-    {
-        "name": "qlvideo",
-        "desc": "quick look for video"
-    },
-    {
-        "name": "quicklook-csv",
-        "desc": "quick look for *.csv"
-    },
-    {
-        "name": "quicklook-json",
-        "desc": "quick look for *.json"
-    },
-    {
-        "name": "spotify",
-        "desc": "Online music"
-    },
-    {
-        "name": "steam",
-        "desc": "Steam client"
-    },
-    {
-        "name": "stellarium",
-        "desc": "planetarium for macOS"
-    },
-    {
-        "name": "surfshark",
-        "desc": "VPN client"
-    },
-    {
-        "name": "suspicious-package",
-        "desc": "quick look *.pkg"
-    },
-    {
-        "name": "tunnelblick",
-        "desc": "VPN tool"
-    },
-    {
-        "name": "vivaldi",
-        "desc": "Vivaldi web browser"
-    },
-    {
-        "name": "webpquicklook",
-        "desc": "quick look for *.webp"
-    },
-    {
-        "name": "welly",
-        "desc": "BBS client"
-    },
-    {
-        "name": "xld",
-        "desc": "X Lossless Decoder / Lossless audio decoder for Mac OS X"
-    },
-    {
-        "name": "yt-music",
-        "desc": "YouTube Music client"
-    }
+  {
+    "name": "adobe-dng-converter",
+    "desc": ""
+  },
+  {
+    "name": "appcleaner",
+    "desc": "application uninstaller"
+  },
+  {
+    "name": "background-music",
+    "desc": "audio utility"
+  },
+  {
+    "name": "betterzip",
+    "desc": "Zip tool with quicklook for zip file"
+  },
+  {
+    "name": "binance",
+    "desc": "Binance client"
+  },
+  {
+    "name": "brave-browser",
+    "desc": "Brave browser"
+  },
+  {
+    "name": "chrome-remote-desktop-host",
+    "desc": "Chrome Remote Desktop"
+  },
+  {
+    "name": "chromium",
+    "desc": "web browser"
+  },
+  {
+    "name": "cryptomator",
+    "desc": "Cryptomator Client"
+  },
+  {
+    "name": "fanny",
+    "desc": "CPU/GPU temperature and fans monitor"
+  },
+  {
+    "name": "font-abril-fatface"
+  },
+  {
+    "name": "font-fira-code"
+  },
+  {
+    "name": "font-fira-code-nerd-font"
+  },
+  {
+    "name": "font-fira-mono"
+  },
+  {
+    "name": "font-fira-mono-nerd-font"
+  },
+  {
+    "name": "font-fira-sans"
+  },
+  {
+    "name": "font-fontawesome"
+  },
+  {
+    "name": "font-inconsolata"
+  },
+  {
+    "name": "font-inconsolata-nerd-font"
+  },
+  {
+    "name": "font-josefin-sans"
+  },
+  {
+    "name": "font-josefin-slab"
+  },
+  {
+    "name": "font-lato"
+  },
+  {
+    "name": "font-noto-mono"
+  },
+  {
+    "name": "font-noto-sans"
+  },
+  {
+    "name": "font-noto-sans-cjk-tc"
+  },
+  {
+    "name": "font-noto-serif"
+  },
+  {
+    "name": "font-noto-serif-cjk"
+  },
+  {
+    "name": "font-old-standard-tt"
+  },
+  {
+    "name": "font-open-sans"
+  },
+  {
+    "name": "font-open-sans-condensed"
+  },
+  {
+    "name": "font-pt-serif"
+  },
+  {
+    "name": "font-roboto"
+  },
+  {
+    "name": "font-roboto-mono"
+  },
+  {
+    "name": "font-roboto-slab"
+  },
+  {
+    "name": "font-ubuntu"
+  },
+  {
+    "name": "google-chrome"
+  },
+  {
+    "name": "google-chrome-beta"
+  },
+  {
+    "name": "google-chrome-canary"
+  },
+  {
+    "name": "google-drive"
+  },
+  {
+    "name": "iina",
+    "desc": "The modern video player for macOS."
+  },
+  {
+    "name": "iterm2",
+    "desc": "terminal"
+  },
+  {
+    "name": "notion",
+    "desc": "Notion Client"
+  },
+  {
+    "name": "opera",
+    "desc": "web browser"
+  },
+  {
+    "name": "packet-peeper",
+    "desc": "network protocol analyzer"
+  },
+  {
+    "name": "paparazzi",
+    "desc": "Screenshot for webpages"
+  },
+  {
+    "name": "qlcolorcode",
+    "desc": "quick look for source code with syntax highlight"
+  },
+  {
+    "name": "qlimagesize",
+    "desc": "show the size of image on title bar of quick look"
+  },
+  {
+    "name": "qlmarkdown",
+    "desc": "quick look for markdown"
+  },
+  {
+    "name": "qlstephen",
+    "desc": "quick look for plain text w/o file extension"
+  },
+  {
+    "name": "qlvideo",
+    "desc": "quick look for video"
+  },
+  {
+    "name": "quicklook-csv",
+    "desc": "quick look for *.csv"
+  },
+  {
+    "name": "quicklook-json",
+    "desc": "quick look for *.json"
+  },
+  {
+    "name": "spotify",
+    "desc": "Online music"
+  },
+  {
+    "name": "steam",
+    "desc": "Steam client"
+  },
+  {
+    "name": "stellarium",
+    "desc": "planetarium for macOS"
+  },
+  {
+    "name": "surfshark",
+    "desc": "VPN client"
+  },
+  {
+    "name": "suspicious-package",
+    "desc": "quick look *.pkg"
+  },
+  {
+    "name": "tunnelblick",
+    "desc": "VPN tool"
+  },
+  {
+    "name": "visual-studio-code",
+    "desc": "editor"
+  },
+  {
+    "name": "vivaldi",
+    "desc": "Vivaldi web browser"
+  },
+  {
+    "name": "webpquicklook",
+    "desc": "quick look for *.webp"
+  },
+  {
+    "name": "welly",
+    "desc": "BBS client"
+  },
+  {
+    "name": "xld",
+    "desc": "X Lossless Decoder / Lossless audio decoder for Mac OS X"
+  },
+  {
+    "name": "yt-music",
+    "desc": "YouTube Music client"
+  }
 ]

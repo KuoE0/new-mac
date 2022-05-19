@@ -1,95 +1,95 @@
 [
-    {
-        "name": "copyq",
-        "desc": "clipboard manager"
-    },
-    {
-        "name": "cryfs",
-        "desc": "A cryptographic filesystem for the cloud"
-    },
-    {
-        "name": "curl"
-    },
-    {
-        "name": "gcin"
-    },
-    {
-        "name": "git-core"
-    },
-    {
-        "name": "gnome-tweak-tool"
-    },
-    {
-        "name": "gocryptfs",
-        "desc": "Encrypted overlay filesystem written in Go"
-    },
-    {
-        "name": "gpaste",
-        "desc": "clipboard manager"
-    },
-    {
-        "name": "guake",
-        "desc": "Drop-down terminal for GNOME Desktop Environment"
-    },
-    {
-        "name": "htop"
-    },
-    {
-        "name": "linuxbrew-wrapper"
-    },
-    {
-        "name": "make"
-    },
-    {
-        "name": "meld",
-        "desc": "GUI diff tool"
-    },
-    {
-        "name": "mosh"
-    },
-    {
-        "name": "nautilus-dropbox"
-    },
-    {
-        "name": "net-tools"
-    },
-    {
-        "name": "openssh-server"
-    },
-    {
-        "name": "python-pip"
-    },
-    {
-        "name": "python3-pip"
-    },
-    {
-        "name": "ruby"
-    },
-    {
-        "name": "shutter",
-        "desc": "screenshot application"
-    },
-    {
-        "name": "spotify-client"
-    },
-    {
-        "name": "trash-cli"
-    },
-    {
-        "name": "vim"
-    },
-    {
-        "name": "wget"
-    },
-    {
-        "name": "x-tile",
-        "desc": "window arrangement"
-    },
-    {
-        "name": "xrdp",
-        "desc": "Remote Desktop Protocol for X-window"
-    },
-    {
-        "name": "zsh"
-    }
+  {
+    "name": "copyq",
+    "desc": "clipboard manager"
+  },
+  {
+    "name": "cryfs",
+    "desc": "A cryptographic filesystem for the cloud"
+  },
+  {
+    "name": "curl"
+  },
+  {
+    "name": "gcin"
+  },
+  {
+    "name": "git-core"
+  },
+  {
+    "name": "gnome-tweak-tool"
+  },
+  {
+    "name": "gocryptfs",
+    "desc": "Encrypted overlay filesystem written in Go"
+  },
+  {
+    "name": "gpaste",
+    "desc": "clipboard manager"
+  },
+  {
+    "name": "guake",
+    "desc": "Drop-down terminal for GNOME Desktop Environment"
+  },
+  {
+    "name": "htop"
+  },
+  {
+    "name": "linuxbrew-wrapper"
+  },
+  {
+    "name": "make"
+  },
+  {
+    "name": "meld",
+    "desc": "GUI diff tool"
+  },
+  {
+    "name": "mosh"
+  },
+  {
+    "name": "nautilus-dropbox"
+  },
+  {
+    "name": "net-tools"
+  },
+  {
+    "name": "openssh-server"
+  },
+  {
+    "name": "python-pip"
+  },
+  {
+    "name": "python3-pip"
+  },
+  {
+    "name": "ruby"
+  },
+  {
+    "name": "shutter",
+    "desc": "screenshot application"
+  },
+  {
+    "name": "spotify-client"
+  },
+  {
+    "name": "trash-cli"
+  },
+  {
+    "name": "vim"
+  },
+  {
+    "name": "wget"
+  },
+  {
+    "name": "x-tile",
+    "desc": "window arrangement"
+  },
+  {
+    "name": "xrdp",
+    "desc": "Remote Desktop Protocol for X-window"
+  },
+  {
+    "name": "zsh"
+  }
 ]

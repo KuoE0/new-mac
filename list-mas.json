@@ -1,91 +1,95 @@
 [
-    {
-        "name": "Amphetamine",
-        "id": "937984704",
-        "desc": "Energy saving utility"
-    },
-    {
-        "name": "Better Rename 10",
-        "id": "1063663640"
-    },
-    {
-        "name": "Bumpr",
-        "id": "1166066070",
-        "desc": "Multiple browser utility"
-    },
-    {
-        "name": "Keynote",
-        "id": "409183694"
-    },
-    {
-        "name": "LastPass",
-        "id": "926036361",
-        "desc": "Password manager"
-    },
-    {
-        "name": "LINE",
-        "id": "539883307",
-        "desc": "IM application"
-    },
-    {
-        "name": "Messenger",
-        "id": "1480068668",
-        "desc": "Official Facebook Messenger Client "
-    },
-    {
-        "name": "Microsoft To Do",
-        "id": "1274495053",
-        "desc": "To-do list application"
-    },
-    {
-        "name": "MoneyWiz 2",
-        "id": "949724400",
-        "desc": "finance record"
-    },
-    {
-        "name": "Moom",
-        "id": "419330170",
-        "desc": "Window manager"
-    },
-    {
-        "name": "Movist",
-        "id": "461788075",
-        "desc": "Video player"
-    },
-    {
-        "name": "PhotoBulk",
-        "id": "537211143",
-        "desc": "Batch photo processor"
-    },
-    {
-        "name": "Pixelmator",
-        "id": "407963104",
-        "desc": "photo editor"
-    },
-    {
-        "name": "Pocket",
-        "id": "568494494"
-    },
-    {
-        "name": "PopClip",
-        "id": "445189367",
-        "desc": "Mouse pop-up utility"
-    },
-    {
-        "name": "Quip",
-        "id": "1003160018"
-    },
-    {
-        "name": "The Unarchiver",
-        "id": "425424353 "
-    },
-    {
-        "name": "Transmit",
-        "id": "403388562"
-    },
-    {
-        "name": "Yoink",
-        "id": "457622435",
-        "desc": "Copy/paste utility"
-    }
+  {
+    "name": "Affinity Designer",
+    "id": "824171161"
+  },
+  {
+    "name": "Amphetamine",
+    "id": "937984704",
+    "desc": "Energy saving utility"
+  },
+  {
+    "name": "Better Rename 10",
+    "id": "1063663640"
+  },
+  {
+    "name": "Bumpr",
+    "id": "1166066070",
+    "desc": "Multiple browser utility"
+  },
+  {
+    "name": "GoodNotes 5",
+    "id": "1444383602"
+  },
+  {
+    "name": "Keynote",
+    "id": "409183694"
+  },
+  {
+    "name": "LastPass",
+    "id": "926036361",
+    "desc": "Password manager"
+  },
+  {
+    "name": "LINE",
+    "id": "539883307",
+    "desc": "IM application"
+  },
+  {
+    "name": "Messenger",
+    "id": "1480068668",
+    "desc": "Official Facebook Messenger Client "
+  },
+  {
+    "name": "Microsoft To Do",
+    "id": "1274495053",
+    "desc": "To-do list application"
+  },
+  {
+    "name": "MoneyWiz 2",
+    "id": "949724400",
+    "desc": "finance record"
+  },
+  {
+    "name": "Moom",
+    "id": "419330170",
+    "desc": "Window manager"
+  },
+  {
+    "name": "Movist",
+    "id": "461788075",
+    "desc": "Video player"
+  },
+  {
+    "name": "PhotoBulk",
+    "id": "537211143",
+    "desc": "Batch photo processor"
+  },
+  {
+    "name": "Pixelmator",
+    "id": "407963104",
+    "desc": "photo editor"
+  },
+  {
+    "name": "Pocket",
+    "id": "568494494"
+  },
+  {
+    "name": "PopClip",
+    "id": "445189367",
+    "desc": "Mouse pop-up utility"
+  },
+  {
+    "name": "The Unarchiver",
+    "id": "425424353 "
+  },
+  {
+    "name": "Transmit",
+    "id": "403388562"
+  },
+  {
+    "name": "Yoink",
+    "id": "457622435",
+    "desc": "Copy/paste utility"
+  }
 ]

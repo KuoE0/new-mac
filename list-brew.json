@@ -1,351 +1,278 @@
 [
-    {
-        "name": "ansifilter",
-        "desc": "ANSI code converter"
-    },
-    {
-        "name": "ascii",
-        "desc": "ANSI code table"
-    },
-    {
-        "name": "bash"
-    },
-    {
-        "name": "binutils",
-        "desc": "binary tools collection"
-    },
-    {
-        "name": "brew-cask-completion"
-    },
-    {
-        "name": "ccze",
-        "desc": "log colorizer"
-    },
-    {
-        "name": "cgdb",
-        "desc": "lightweight curses GDB"
-    },
-    {
-        "name": "clang-format",
-        "desc": "C/C++/Obj-C formatter"
-    },
-    {
-        "name": "cloc",
-        "desc": "calculate line of code"
-    },
-    {
-        "name": "colordiff",
-        "desc": "colorized diff"
-    },
-    {
-        "name": "colortail",
-        "desc": "colorized tail"
-    },
-    {
-        "name": "coreutils",
-        "desc": "GNU core utilities"
-    },
-    {
-        "name": "cryfs",
-        "desc": "A cryptographic filesystem for the cloud"
-    },
-    {
-        "name": "cscope",
-        "desc": "dev tool for browsing C code"
-    },
-    {
-        "name": "curl",
-        "desc": "client-side URL transfers"
-    },
-    {
-        "name": "dos2unix",
-        "desc": "convert text file format from dos to unix"
-    },
-    {
-        "name": "emacs-mac"
-    },
-    {
-        "name": "enca",
-        "desc": "text encoding detector/converter"
-    },
-    {
-        "name": "exiftool",
-        "desc": "EXIF viewer and editor"
-    },
-    {
-        "name": "fasd",
-        "desc": "CLI productivity booster"
-    },
-    {
-        "name": "fd",
-        "desc": "find replacement"
-    },
-    {
-        "name": "ffmpeg"
-    },
-    {
-        "name": "figlet",
-        "desc": "text ASCII art generator"
-    },
-    {
-        "name": "findutils",
-        "desc": "GNU Find Utilities"
-    },
-    {
-        "name": "fpp",
-        "desc": "Facebook path picker"
-    },
-    {
-        "name": "fzf",
-        "desc": "CLI fuzzy finder"
-    },
-    {
-        "name": "gcc"
-    },
-    {
-        "name": "gdb",
-        "message": [
-            "Please read the following document to codesign GDB!",
-            "    https://gcc.gnu.org/onlinedocs/gnat_ugn/Codesigning-the-Debugger.html",
-            "",
-            "And then, add your username into _developer group (use the following command)",
-            "    sudo dseditgroup -o edit -a $USER -t user _developer",
-            "",
-            "On 10.12 (Sierra) or later with SIP, you need to run this:",
-            "    echo 'set startup-with-shell off' >> ~/.gbdinit"
-        ]
-    },
-    {
-        "name": "git",
-        "desc": "version control system"
-    },
-    {
-        "name": "git-extras",
-        "desc": "Git utilities"
-    },
-    {
-        "name": "git-flow",
-        "desc": "Git repo management tool"
-    },
-    {
-        "name": "gocryptfs",
-        "desc": "Encrypted overlay filesystem written in Go",
-        "do_before": [
-            "[ $(uname) = 'Darwin' ] && brew cask install osxfuse"
-        ]
-    },
-    {
-        "name": "googler",
-        "desc": "Google search CLI client"
-    },
-    {
-        "name": "gource",
-        "desc": "version control visualization tool"
-    },
-    {
-        "name": "graphviz",
-        "desc": "graph visualization tool"
-    },
-    {
-        "name": "grc",
-        "desc": "generic colorizer"
-    },
-    {
-        "name": "htop-osx"
-    },
-    {
-        "name": "imagemagick",
-        "desc": "image processing utility"
-    },
-    {
-        "name": "john",
-        "desc": "John the Ripper - password cracker"
-    },
-    {
-        "name": "jq",
-        "desc": "JSON parser"
-    },
-    {
-        "name": "llvm"
-    },
-    {
-        "name": "macvim",
-        "desc": "Vim for macOS"
-    },
-    {
-        "name": "mas",
-        "desc": "Mac App Store command line interface"
-    },
-    {
-        "name": "mercurial",
-        "desc": "version control system"
-    },
-    {
-        "name": "mmv",
-        "desc": "mass move and rename"
-    },
-    {
-        "name": "mosh",
-        "desc": "mobile SSH"
-    },
-    {
-        "name": "ncdu",
-        "desc": "Interactive `du` command"
-    },
-    {
-        "name": "neovim",
-        "tap": "neovim/neovim",
-        "desc": "new generation Vim",
-        "do_after": [
-            "ln -s /usr/local/bin/nvim /usr/local/bin/vim"
-        ]
-    },
-    {
-        "name": "nmap",
-        "desc": "security scanner"
-    },
-    {
-        "name": "node",
-        "desc": "NodeJS"
-    },
-    {
-        "name": "p7zip",
-        "desc": "7zip utility"
-    },
-    {
-        "name": "pandoc",
-        "desc": "format converter"
-    },
-    {
-        "name": "pastebinit",
-        "desc": "paste text to pastebin.com or other services"
-    },
-    {
-        "name": "patchutils",
-        "desc": "patch operation utilities"
-    },
-    {
-        "name": "picocom",
-        "desc": "Minimal dumb-terminal emulator "
-    },
-    {
-        "name": "pv",
-        "desc": "progress viewer"
-    },
-    {
-        "name": "python",
-        "desc": "Python 3"
-    },
-    {
-        "name": "readline",
-        "desc": "GNU readline"
-    },
-    {
-        "name": "rename",
-        "desc": "rename utility"
-    },
-    {
-        "name": "renameutils",
-        "desc": "rename utility"
-    },
-    {
-        "name": "rsync",
-        "desc": "Latest version of rsync"
-    },
-    {
-        "name": "s-search",
-        "desc": "search on the web in the terminal"
-    },
-    {
-        "name": "screenfetch",
-        "desc": "fetch system information"
-    },
-    {
-        "name": "sdcv",
-        "desc": "console version of StarDict (dictionary)"
-    },
-    {
-        "name": "socat",
-        "desc": "network utility"
-    },
-    {
-        "name": "source-highlight",
-        "desc": "syntax highlight in console"
-    },
-    {
-        "name": "ssh-copy-id",
-        "desc": "utility to copy public key to remote server"
-    },
-    {
-        "name": "surfraw",
-        "desc": "CIL for search engine (open result in the default browser)"
-    },
-    {
-        "name": "tesseract",
-        "desc": "open source OCR engine"
-    },
-    {
-        "name": "testdisk",
-        "desc": "open source data recovery software"
-    },
-    {
-        "name": "the_silver_searcher",
-        "desc": "code-searching tool (a.k.a. ag)"
-    },
-    {
-        "name": "tig",
-        "desc": "git log viewer"
-    },
-    {
-        "name": "tldr",
-        "desc": "tldr for man page"
-    },
-    {
-        "name": "tmux"
-    },
-    {
-        "name": "toilet",
-        "desc": "text ASCII art generator",
-        "do_before": [
-            "[ $(uname) = 'Darwin' ] && brew cask install xquartz"
-        ]
-    },
-    {
-        "name": "tree",
-        "desc": "list all contents in directory with tree structure"
-    },
-    {
-        "name": "unrar"
-    },
-    {
-        "name": "webkit2png",
-        "desc": "web screenshot"
-    },
-    {
-        "name": "wget"
-    },
-    {
-        "name": "xmlto",
-        "desc": "tool to convert XML files to other formats"
-    },
-    {
-        "name": "yarn",
-        "desc": "dependency manager"
-    },
-    {
-        "name": "youtube-dl",
-        "desc": "download audio/video on YouTube"
-    },
-    {
-        "name": "zsh",
-        "do_after": [
-            "grep -qF $(brew --prefix)/bin/zsh /etc/shells || sudo sh -c \"echo $(brew --prefix)/bin/zsh >> /etc/shells\"",
-            "chsh -s $(brew --prefix)/bin/zsh",
-            "chmod -R 755 /usr/local/share"
-        ]
-    },
-    {
-        "name": "zsh-completions",
-        "desc": "auto-completion functions for ZSH"
-    }
+  {
+    "name": "ansifilter",
+    "desc": "ANSI code converter"
+  },
+  {
+    "name": "ascii",
+    "desc": "ANSI code table"
+  },
+  {
+    "name": "bash"
+  },
+  {
+    "name": "binutils",
+    "desc": "binary tools collection"
+  },
+  {
+    "name": "ccze",
+    "desc": "log colorizer"
+  },
+  {
+    "name": "cgdb",
+    "desc": "lightweight curses GDB"
+  },
+  {
+    "name": "clang-format",
+    "desc": "C/C++/Obj-C formatter"
+  },
+  {
+    "name": "cloc",
+    "desc": "calculate line of code"
+  },
+  {
+    "name": "colordiff",
+    "desc": "colorized diff"
+  },
+  {
+    "name": "colortail",
+    "desc": "colorized tail"
+  },
+  {
+    "name": "coreutils",
+    "desc": "GNU core utilities"
+  },
+  {
+    "name": "cryfs",
+    "desc": "A cryptographic filesystem for the cloud"
+  },
+  {
+    "name": "cscope",
+    "desc": "dev tool for browsing C code"
+  },
+  {
+    "name": "curl",
+    "desc": "client-side URL transfers"
+  },
+  {
+    "name": "dos2unix",
+    "desc": "convert text file format from dos to unix"
+  },
+  {
+    "name": "enca",
+    "desc": "text encoding detector/converter"
+  },
+  {
+    "name": "exiftool",
+    "desc": "EXIF viewer and editor"
+  },
+  {
+    "name": "fasd",
+    "desc": "CLI productivity booster"
+  },
+  {
+    "name": "fd",
+    "desc": "find replacement"
+  },
+  {
+    "name": "ffmpeg"
+  },
+  {
+    "name": "figlet",
+    "desc": "text ASCII art generator"
+  },
+  {
+    "name": "findutils",
+    "desc": "GNU Find Utilities"
+  },
+  {
+    "name": "fpp",
+    "desc": "Facebook path picker"
+  },
+  {
+    "name": "fzf",
+    "desc": "CLI fuzzy finder"
+  },
+  {
+    "name": "gcc"
+  },
+  {
+    "name": "git",
+    "desc": "version control system"
+  },
+  {
+    "name": "git-extras",
+    "desc": "Git utilities"
+  },
+  {
+    "name": "git-flow",
+    "desc": "Git repo management tool"
+  },
+  {
+    "name": "gource",
+    "desc": "version control visualization tool"
+  },
+  {
+    "name": "graphviz",
+    "desc": "graph visualization tool"
+  },
+  {
+    "name": "grc",
+    "desc": "generic colorizer"
+  },
+  {
+    "name": "htop-osx"
+  },
+  {
+    "name": "imagemagick",
+    "desc": "image processing utility"
+  },
+  {
+    "name": "john",
+    "desc": "John the Ripper - password cracker"
+  },
+  {
+    "name": "jq",
+    "desc": "JSON parser"
+  },
+  {
+    "name": "llvm"
+  },
+  {
+    "name": "macvim",
+    "desc": "Vim for macOS"
+  },
+  {
+    "name": "mas",
+    "desc": "Mac App Store command line interface"
+  },
+  {
+    "name": "mercurial",
+    "desc": "version control system"
+  },
+  {
+    "name": "mmv",
+    "desc": "mass move and rename"
+  },
+  {
+    "name": "mosh",
+    "desc": "mobile SSH"
+  },
+  {
+    "name": "ncdu",
+    "desc": "Interactive `du` command"
+  },
+  {
+    "name": "neovim",
+    "tap": "neovim/neovim",
+    "desc": "new generation Vim",
+    "do_after": [
+      "ln -s /usr/local/bin/nvim /usr/local/bin/vim"
+    ]
+  },
+  {
+    "name": "nmap",
+    "desc": "security scanner"
+  },
+  {
+    "name": "node",
+    "desc": "NodeJS"
+  },
+  {
+    "name": "p7zip",
+    "desc": "7zip utility"
+  },
+  {
+    "name": "pandoc",
+    "desc": "format converter"
+  },
+  {
+    "name": "patchutils",
+    "desc": "patch operation utilities"
+  },
+  {
+    "name": "picocom",
+    "desc": "Minimal dumb-terminal emulator "
+  },
+  {
+    "name": "pv",
+    "desc": "progress viewer"
+  },
+  {
+    "name": "readline",
+    "desc": "GNU readline"
+  },
+  {
+    "name": "rename",
+    "desc": "rename utility"
+  },
+  {
+    "name": "renameutils",
+    "desc": "rename utility"
+  },
+  {
+    "name": "rsync",
+    "desc": "Latest version of rsync"
+  },
+  {
+    "name": "sdcv",
+    "desc": "console version of StarDict (dictionary)"
+  },
+  {
+    "name": "socat",
+    "desc": "network utility"
+  },
+  {
+    "name": "source-highlight",
+    "desc": "syntax highlight in console"
+  },
+  {
+    "name": "ssh-copy-id",
+    "desc": "utility to copy public key to remote server"
+  },
+  {
+    "name": "testdisk",
+    "desc": "open source data recovery software"
+  },
+  {
+    "name": "tig",
+    "desc": "git log viewer"
+  },
+  {
+    "name": "tldr",
+    "desc": "tldr for man page"
+  },
+  {
+    "name": "tmux"
+  },
+  {
+    "name": "tree",
+    "desc": "list all contents in directory with tree structure"
+  },
+  {
+    "name": "unrar"
+  },
+  {
+    "name": "webkit2png",
+    "desc": "web screenshot"
+  },
+  {
+    "name": "wget"
+  },
+  {
+    "name": "youtube-dl",
+    "desc": "download audio/video on YouTube"
+  },
+  {
+    "name": "zsh",
+    "do_after": [
+      "grep -qF $(brew --prefix)/bin/zsh /etc/shells || sudo sh -c \"echo $(brew --prefix)/bin/zsh >> /etc/shells\"",
+      "chsh -s $(brew --prefix)/bin/zsh",
+      "chmod -R 755 /usr/local/share"
+    ]
+  },
+  {
+    "name": "zsh-completions",
+    "desc": "auto-completion functions for ZSH"
+  }
 ]
