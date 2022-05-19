@@ -12,10 +12,6 @@
     "desc": "audio utility"
   },
   {
-    "name": "betterzip",
-    "desc": "Zip tool with quicklook for zip file"
-  },
-  {
     "name": "binance",
     "desc": "Binance client"
   },
