@@ -194,6 +194,10 @@
     "desc": "quick look *.pkg"
   },
   {
+    "name": "tradingview",
+    "desc": "TradingView client"
+  },
+  {
     "name": "tunnelblick",
     "desc": "VPN tool"
   },
