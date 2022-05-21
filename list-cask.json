@@ -186,10 +186,6 @@
     "desc": "planetarium for macOS"
   },
   {
-    "name": "surfshark",
-    "desc": "VPN client"
-  },
-  {
     "name": "suspicious-package",
     "desc": "quick look *.pkg"
   },
