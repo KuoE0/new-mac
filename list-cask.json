@@ -4,14 +4,6 @@
     "desc": ""
   },
   {
-    "name": "appcleaner",
-    "desc": "application uninstaller"
-  },
-  {
-    "name": "background-music",
-    "desc": "audio utility"
-  },
-  {
     "name": "binance",
     "desc": "Binance client"
   },
@@ -26,10 +18,6 @@
   {
     "name": "cryptomator",
     "desc": "Cryptomator Client"
-  },
-  {
-    "name": "fanny",
-    "desc": "CPU/GPU temperature and fans monitor"
   },
   {
     "name": "font-abril-fatface"
@@ -127,11 +115,12 @@
     "desc": "terminal"
   },
   {
-    "name": "logseq"
-  },
-  {
     "name": "notion",
     "desc": "Notion Client"
+  },
+  {
+    "name": "obsidian",
+    "desc": "noting app"
   },
   {
     "name": "opera",
@@ -192,6 +181,10 @@
   {
     "name": "tradingview",
     "desc": "TradingView client"
+  },
+  {
+    "name": "transmit",
+    "desc": "Transmit 5 - FTP client"
   },
   {
     "name": "tunnelblick",

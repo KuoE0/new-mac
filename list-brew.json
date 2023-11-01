@@ -1,30 +1,7 @@
 [
   {
-    "name": "ansifilter",
-    "desc": "ANSI code converter"
-  },
-  {
-    "name": "ascii",
-    "desc": "ANSI code table"
-  },
-  {
-    "name": "bash"
-  },
-  {
     "name": "binutils",
     "desc": "binary tools collection"
-  },
-  {
-    "name": "ccze",
-    "desc": "log colorizer"
-  },
-  {
-    "name": "cgdb",
-    "desc": "lightweight curses GDB"
-  },
-  {
-    "name": "clang-format",
-    "desc": "C/C++/Obj-C formatter"
   },
   {
     "name": "cloc",
@@ -155,10 +132,6 @@
     "desc": "mass move and rename"
   },
   {
-    "name": "mosh",
-    "desc": "mobile SSH"
-  },
-  {
     "name": "ncdu",
     "desc": "Interactive `du` command"
   },
@@ -179,24 +152,12 @@
     "desc": "NodeJS"
   },
   {
-    "name": "nvm",
-    "desc": "Node version manager"
-  },
-  {
     "name": "p7zip",
     "desc": "7zip utility"
   },
   {
     "name": "pandoc",
     "desc": "format converter"
-  },
-  {
-    "name": "patchutils",
-    "desc": "patch operation utilities"
-  },
-  {
-    "name": "picocom",
-    "desc": "Minimal dumb-terminal emulator "
   },
   {
     "name": "pv",
@@ -270,14 +231,6 @@
   {
     "name": "youtube-dl",
     "desc": "download audio/video on YouTube"
-  },
-  {
-    "name": "zsh",
-    "do_after": [
-      "grep -qF $(brew --prefix)/bin/zsh /etc/shells || sudo sh -c \"echo $(brew --prefix)/bin/zsh >> /etc/shells\"",
-      "chsh -s $(brew --prefix)/bin/zsh",
-      "chmod -R 755 /usr/local/share"
-    ]
   },
   {
     "name": "zsh-completions",
